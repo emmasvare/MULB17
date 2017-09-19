@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Side med CSS</title>
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+            <!-- Internt Style sheet-->
+            <style>
+                /* selevtor - property - value */
+                body{
+                    background-image: url(Images/marmor.jpg);
+                    background-position: top;
+                    background-size: cover;
+                }
+            h1 {
+                /*ændring af farve på skrift*/
+                color:#991aa3;
+                /*ændre skrifttype*/
+                font-family: Lora, arial, verdana, sans-serif; 
+                /*kursivg skrift*/
+                font-style: italic;
+                /*ændring af skriftstørrelse*/
+                font-size: 60px;
+                /*Placering af tekst*/
+                text-align: center;
+            }
+                p{
+                    color:#a676e6;
+                    font-family: Lora, serif;
+                    /*højde på linjerne*/
+                    line-height: 140%;
+                    text-align: justify;
+                    /*Bredde på paragraf*/
+                    width: 600px;
+                }
+                a{
+                    /*fede links*/
+                    font-weight: bold;
+                    /*understreg under ordene*/
+                    text-decoration: none;
+                    letter-spacing: normal;
+                }
+                a:link{color: blue}
+                /*når man har besøgt siden før*/
+                a:visited{color: purple}
+                /*når man har musen henover*/
+                a:hover{
+                    color: yellow;
+                    text-decoration: underline;
+                }
+                /*når man holder inde og klikker på den*/
+                a:active{color: red}
+                
+            </style>
+    </head>
+    <body> 
+        <!--Inline style -->
+        <h1 style="color:#404bcc; font-family: gerogia, serif;">Styling med CSS</h1>
+        <h1>Min overskrift nummer to</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. <a href="https://www.onlinewebdesign.dk/referencer/lorem-ipsum/"target="_blank">Phasellus dui</a>. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim. Aliquam aliquam sodales orci. Suspendisse potenti. Nunc adipiscing euismod arcu. Quisque facilisis mattis lacus.</p>
+    </body>
+</html>
